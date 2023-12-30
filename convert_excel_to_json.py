@@ -21,7 +21,7 @@ def convert_excel_to_js(excel_path, js_path):
     print(f"Data has been written to {js_path}")
 
 # The paths to the Excel file and the output JS file
-excel_file_path = './cloudnativetools.xlsx'  # Replace with your actual Excel file path
+excel_file_path = './Testing.xlsx'  # Replace with your actual Excel file path
 js_file_path = 'entries.js'  # Replace with your desired JS file path
 
 # Run the conversion
