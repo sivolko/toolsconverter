@@ -5,7 +5,7 @@ on:
    branches: ['main']
 
    paths:
-       - '/cloudnativetools.xlsx' # This ensures the action runs only when the Excel file changes.
+       - '/Testing.xlsx' # This ensures the action runs only when the Excel file changes.
   workflow_dispatch:
 
 permissions:
@@ -47,5 +47,5 @@ jobs:
 
         env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-             EXCEL_PATH: 'cloudnativetools.xlsx'
+             EXCEL_PATH: 'Testing.xlsx'
              JS_PATH: 'entries.js'
